@@ -1,0 +1,74 @@
+.login-page{
+    height: 100vh;
+
+
+
+    .login-wrap{
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+      
+     .card{
+        border: none;
+     }
+
+    .login-logo img {
+    width: 300px;
+    margin-left: -32px;
+
+    }
+    .login-logo h1 {
+    font-size: 26px;
+    }
+    .login-form .card-body {
+    padding: 42px;
+
+     .create-account.text-center hr {
+        margin-bottom: 33px;
+      }
+      .create-account.text-center {
+        margin: 33px 0px;
+      }
+      
+    }
+
+   .forgot-password{
+     width: 100%;
+     text-align: center;
+     margin-top: 20px;
+     span{
+        width: 100%;
+        text-align: center;
+
+        a{
+        color: black;
+        text-align: center;
+        }
+    } 
+   }
+
+    .create-page{
+        margin-top: 20px;
+
+        a{
+            color: black;
+            font-weight: bold;
+        }
+      }
+    
+}
+}
+
+// register modal
+
+.description span{
+  font-size: 13px;
+  margin-top: 10px;
+}
+button.close {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+}
